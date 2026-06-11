@@ -444,3 +444,20 @@ Thumbs.db
 
 # Large local data
 Fast_Furious_Insured/
+
+mlflow.db
+mlartifacts/
+*.pt
+*.pth
+mlruns/
+
+# Generated experiment artifacts
+*_history.csv
+*_test_predictions.csv
+*_classification_report.txt
+*_confusion_matrix.png
+*_loss_plot.png
+*_metrics_plot.png
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
