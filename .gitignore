@@ -4,6 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 1/Model_Ready CSV.csv
+1/cincinnati_traffic_crash_data__cpd.csv
 
 # User-specific files
 *.rsuser
