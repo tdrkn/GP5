@@ -7,3 +7,6 @@ torchvision
 scikit-learn
 mlflow
 dagshub
+opencv-python
+tqdm
+torchinfo
