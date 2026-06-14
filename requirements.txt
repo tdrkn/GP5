@@ -10,3 +10,5 @@ dagshub
 opencv-python
 tqdm
 torchinfo
+timm
+pillow

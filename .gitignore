@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+1/Model_Ready CSV.csv
+1/cincinnati_traffic_crash_data__cpd.csv
+
 # User-specific files
 *.rsuser
 *.suo
@@ -461,3 +464,42 @@ mlruns/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# ===== GP5 project: keep selected task artifacts =====
+
+# Keep task artifact folders
+!table_task/artifacts/
+!table_task/artifacts/**
+!image_task/artifacts/
+!image_task/artifacts/**
+
+# Keep fixed data splits
+!image_task/data/
+!image_task/data/splits/
+!image_task/data/splits/**
+
+# Keep demo jpg photos if they are allowed to be committed
+!image_task/new_car_photos/
+!image_task/new_car_photos/**
+
+# Still ignore raw data
+Fast_Furious_Insured/
+Fast_Furious_Insured.zip
+**/Fast_Furious_Insured/
+**/Fast_Furious_Insured.zip
+**/trainImages/
+**/data/raw/
+
+# Still ignore local MLflow storage
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Still ignore model weights in GitHub
+*.pt
+*.pth
+*.ckpt
+image_task/artifacts/models/*.pt
+image_task/artifacts/models/*.pth
+table_task/artifacts/models/*.pt
+table_task/artifacts/models/*.pth
